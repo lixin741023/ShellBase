@@ -1,0 +1,14 @@
+// 不同的登录方式会导致 shell 在启动的时候加载不同的配置文件！
+
+// 常见的与 shell 有关的配置文件有：
+
+
+/etc/profile、
+~/.bash_profile、
+~/.bash_login、
+~/.profile、
+~/.bashrc、
+/etc/bashrc、
+/etc/profile.d/*.sh，
+……
+……
