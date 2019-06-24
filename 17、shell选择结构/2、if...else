@@ -1,0 +1,21 @@
+if  condition
+then
+    statement(s)
+fi
+
+
+
+if  condition
+then
+    statement(s)
+elif condition
+then
+    statement(s)
+elif condition
+then
+    statement(s)
+fi
+
+// condition 为真时
+// then 后面的语句执行
+// 使用 fi 来闭合

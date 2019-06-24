@@ -1,0 +1,14 @@
+case expression in
+    pattern1)
+        statement1
+        ;;
+    pattern2)
+        statement2
+        ;;
+    pattern3)
+        statement3
+        ;;
+    ……
+    *)
+        statementn
+esac

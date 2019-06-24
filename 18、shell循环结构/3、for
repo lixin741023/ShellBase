@@ -1,0 +1,18 @@
+// 风格1：
+for((exp1; exp2; exp3))
+do
+    statements
+done
+
+// exp1、exp2、exp3 是三个表达式，其中 exp2 是判断条件，for 循环根据 exp2 的结果来决定是否继续下一次循环；
+// statements 是循环体语句，可以有一条，也可以有多条；
+// do 和 done 是 Shell 中的关键字。
+
+
+// for 循环中的 exp1（初始化语句）、exp2（判断条件）和 exp3（自增或自减）都是可选项，都可以省略（但分号;必须保留）。
+
+// 风格2：
+for variable in value_list
+do
+    statements
+done

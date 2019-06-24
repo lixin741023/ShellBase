@@ -1,0 +1,11 @@
+// while 循环是 Shell 脚本中最简单的一种循环，当条件满足时，while 重复地执行一组语句，当条件不满足时，就退出 while 循环。
+
+// Shell while 循环的用法如下：
+
+while condition
+do
+    statements
+done
+
+// 注意，在 while 循环体中必须有相应的语句使得 condition 越来越趋近于“不成立”，只有这样才能最终退出循环，
+// 否则 while 就成了死循环，会一直执行下去，永无休止。

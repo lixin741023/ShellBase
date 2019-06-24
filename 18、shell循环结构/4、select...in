@@ -1,0 +1,11 @@
+// select in 循环用来增强交互性，它可以显示出带编号的菜单，用户输入不同的编号就可以选择不同的菜单，并执行不同的功能。
+
+// select in 是 Shell 独有的一种循环，非常适合终端（Terminal）这样的交互场景！
+
+
+select variable in value_list
+do
+    statements
+done
+
+
